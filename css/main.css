@@ -47,10 +47,11 @@
 
 .boton-odd {
   position: absolute;
-  top: 120px;
-  right: 360px;
+  padding: 89px 85px;
+}
 
-
+a {
+  text-decoration: none;
 }
 
 
@@ -60,4 +61,7 @@
 
 
 
+
+
 /*# sourceMappingURL=main.css.map */
+

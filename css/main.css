@@ -41,11 +41,13 @@
 }
 
 .logo-odd {
+  display: flex;
   position: relative;
 
 }
 
 .boton-odd {
+  display: flex;
   position: absolute;
   padding: 89px 85px;
 }
@@ -54,14 +56,228 @@ a {
   text-decoration: none;
 }
 
+.ob-banner-compra-gana .banner-res {
+  display: none;
+}
+
+.ob-banner-compra-gana .bags-res {
+  display: none;
+}
+
+.ob-banner-compra-gana .bags-res {
+  display: none;
+}
+
+.ob-banner-compra-gana .ori-logo-odd {
+  display: none;
+}
+
+.ob-banner-compra-gana .dots-logo-odd {
+  display: none;
+}
+
+.ob-banner-compra-gana .text-odd-res {
+  display: none;
+}
+
+.ob-banner-compra-gana .logo-res-back {
+  display: none;
+}
+
+/* Responsive 1240 */
+
+@media screen and (max-width: 1240px) {
+  .ob-banner-compra-gana .text-odd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 40px;
+    padding-top: 19px;
+    padding-right: 10px; }
+}
+
+/* Responsive 1240 */
+
+@media screen and (max-width: 1119px) {
+  .ob-banner-compra-gana .text-odd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 35px;
+    padding-top: 19px;
+    padding-right: 10px; }
+}
 
 
+/* Responsive 500*/
+
+@media screen and (max-width: 500px) {
+  .ob-banner-compra-gana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: #802b8b;
+
+  }
+
+  .ob-banner-compra-gana .text-odd {
+    display: none;
+  }
+
+  .bags-odd {
+    display: none;
+
+  }
+
+  .logo-odd {
+    display: none;
+
+  }
+
+  .boton-odd {
+    display: none;
+  }
+
+  .ob-banner-compra-gana .text-odd-res {
+    display: flex;
+    order: 1;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+  .ob-banner-compra-gana .bags-res {
+    display: flex;
+    order: 2;
+
+  }
+
+  .ob-banner-compra-gana .logo-res-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    order: 3;
+    width: 500px;
+    height: 88px;
+    background: url("../images/bg_dot_oriental.png");
+    background-color: #f5821f;
+    background-size: 4.6%;
+    background-position: 12% 28%;
 
 
+  }
+
+  .ob-banner-compra-gana .ori-logo-odd {
+    display: flex;
+    width: 189px;
+    height: 40px;
+  }
+
+  .ob-banner-compra-gana .dots-logo-odd {
+    display: flex;
+    align-items: center;
+  }
+
+  .ob-banner-compra-gana .boton-odd-res {
+    display: flex;
+    width: 216px;
+    height: 50px;
+
+  }
 
 
+}
 
+
+/* Responsive 320*/
+
+@media screen and (max-width: 320px) {
+  .ob-banner-compra-gana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #802b8b;
+
+  }
+
+  .ob-banner-compra-gana .text-odd {
+    display: none;
+  }
+
+  .bags-odd {
+    display: none;
+
+  }
+
+  .logo-odd {
+    display: none;
+
+  }
+
+  .boton-odd {
+    display: none;
+  }
+
+  .ob-banner-compra-gana .text-odd-res {
+    display: flex;
+    align-items: center;
+    order: 1;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 28px;
+
+  }
+
+  .ob-banner-compra-gana .bags-res {
+    display: none;
+
+  }
+
+  .ob-banner-compra-gana .logo-res-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+    width: 320px;
+    height: 108px;
+    background: url("../images/bg_dot_oriental.png");
+    background-color: #f5821f;
+    background-size: 5.3%;
+  }
+
+  .ob-banner-compra-gana .ori-logo-odd {
+    display: flex;
+    width: 147px;
+    height: 31px;
+    margin: 10px;
+
+  }
+
+  .ob-banner-compra-gana .dots-logo-odd {
+    display: flex;
+  }
+
+  .ob-banner-compra-gana .boton-odd-res {
+    display: flex;
+    width: 147px;
+    height: 35px;
+    margin-bottom: 10px;
+
+  }
+
+
+}
 
 
 /*# sourceMappingURL=main.css.map */
-

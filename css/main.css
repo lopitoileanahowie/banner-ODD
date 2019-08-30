@@ -25,15 +25,20 @@
   background-color: #802b8b;
   min-height: 150px; }
 
+.ob-banner-compra-gana .bags-odd {
+    display: flex;
+    width: 97px;
+    height: 100px;
+    margin-top: 50px; }
+
 .ob-banner-compra-gana .text-odd {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-family: 'FuturaStd-Bold';
   color: white;
   font-size: 50px;
-  padding-top: 19px;
-  padding-right: 10px; }
+  margin-top: 13px;
+  margin-right: 5px; }
 
 .logo-div {
    display: flex;
@@ -49,7 +54,9 @@
 .boton-odd {
   display: flex;
   position: absolute;
-  padding: 89px 85px;
+  width: 185px;
+  height: 43px;
+  margin: 54px 272px;
 }
 
 a {
@@ -90,7 +97,7 @@ a {
     font-family: 'FuturaStd-Bold';
     color: white;
     font-size: 40px;
-    padding-top: 19px;
+
     padding-right: 10px; }
 }
 
@@ -104,7 +111,7 @@ a {
     font-family: 'FuturaStd-Bold';
     color: white;
     font-size: 35px;
-    padding-top: 19px;
+
     padding-right: 10px; }
 }
 
@@ -124,7 +131,7 @@ a {
     display: none;
   }
 
-  .bags-odd {
+  .ob-banner-compra-gana .bags-odd {
     display: none;
 
   }

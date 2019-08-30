@@ -64,10 +64,6 @@ a {
   display: none;
 }
 
-.ob-banner-compra-gana .bags-res {
-  display: none;
-}
-
 .ob-banner-compra-gana .ori-logo-odd {
   display: none;
 }
@@ -169,16 +165,16 @@ a {
     height: 88px;
     background: url("../images/bg_dot_oriental.png");
     background-color: #f5821f;
-    background-size: 4.6%;
-    background-position: 12% 28%;
+    background-size: 4.5%;
+    background-position: 32% 58%;
 
 
   }
 
   .ob-banner-compra-gana .ori-logo-odd {
     display: flex;
-    width: 189px;
-    height: 40px;
+    width: 150px;
+    height: 38px;
   }
 
   .ob-banner-compra-gana .dots-logo-odd {
@@ -195,6 +191,264 @@ a {
 
 
 }
+
+/* Responsive 472*/
+
+@media screen and (max-width: 472px) {
+  .ob-banner-compra-gana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: #802b8b;
+
+  }
+
+  .ob-banner-compra-gana .text-odd {
+    display: none;
+  }
+
+  .bags-odd {
+    display: none;
+
+  }
+
+  .logo-odd {
+    display: none;
+
+  }
+
+  .boton-odd {
+    display: none;
+  }
+
+  .ob-banner-compra-gana .text-odd-res {
+    display: flex;
+    order: 1;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+  .ob-banner-compra-gana .bags-res {
+    display: flex;
+    order: 2;
+    width: 100px;
+    height: 89px;
+    align-items: flex-end;
+    margin-top: 30px;
+
+  }
+
+  .ob-banner-compra-gana .logo-res-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    order: 3;
+    width: 500px;
+    height: 88px;
+    background: url("../images/bg_dot_oriental.png");
+    background-color: #f5821f;
+    background-size: 4.6%;
+    background-position: 22% 70%;
+
+
+  }
+
+  .ob-banner-compra-gana .ori-logo-odd {
+    display: flex;
+    width: 140px;
+    height: 35px;
+  }
+
+  .ob-banner-compra-gana .dots-logo-odd {
+    display: flex;
+    align-items: center;
+  }
+
+  .ob-banner-compra-gana .boton-odd-res {
+    display: flex;
+    width: 170px;
+    height: 39px;
+
+  }
+
+
+}
+
+
+/* Responsive 412*/
+
+@media screen and (max-width: 412px) {
+  .ob-banner-compra-gana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: #802b8b;
+
+  }
+
+  .ob-banner-compra-gana .text-odd {
+    display: none;
+  }
+
+  .bags-odd {
+    display: none;
+
+  }
+
+  .logo-odd {
+    display: none;
+
+  }
+
+  .boton-odd {
+    display: none;
+  }
+
+  .ob-banner-compra-gana .text-odd-res {
+    display: flex;
+    order: 1;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+  .ob-banner-compra-gana .bags-res {
+    display: flex;
+    order: 2;
+    width: 60px;
+    height: 53px;
+    align-items: flex-end;
+    margin-top: 65px;
+
+  }
+
+  .ob-banner-compra-gana .logo-res-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    order: 3;
+    width: 500px;
+    height: 88px;
+    background: url("../images/bg_dot_oriental.png");
+    background-color: #f5821f;
+    background-size: 4.6%;
+    background-position: 22% 70%;
+
+
+  }
+
+  .ob-banner-compra-gana .ori-logo-odd {
+    display: flex;
+    width: 140px;
+    height: 35px;
+  }
+
+  .ob-banner-compra-gana .dots-logo-odd {
+    display: flex;
+    align-items: center;
+  }
+
+  .ob-banner-compra-gana .boton-odd-res {
+    display: flex;
+    width: 170px;
+    height: 39px;
+
+  }
+
+
+}
+
+/* Responsive 372*/
+
+@media screen and (max-width: 372px) {
+  .ob-banner-compra-gana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: #802b8b;
+
+  }
+
+  .ob-banner-compra-gana .text-odd {
+    display: none;
+  }
+
+  .bags-odd {
+    display: none;
+
+  }
+
+  .logo-odd {
+    display: none;
+
+  }
+
+  .boton-odd {
+    display: none;
+  }
+
+  .ob-banner-compra-gana .text-odd-res {
+    display: flex;
+    order: 1;
+    font-family: 'FuturaStd-Bold';
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+  .ob-banner-compra-gana .bags-res {
+    display: none;
+
+  }
+
+  .ob-banner-compra-gana .logo-res-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    order: 3;
+    width: 500px;
+    height: 88px;
+    background: url("../images/bg_dot_oriental.png");
+    background-color: #f5821f;
+    background-size: 4.6%;
+    background-position: 22% 70%;
+
+
+  }
+
+  .ob-banner-compra-gana .ori-logo-odd {
+    display: flex;
+    width: 140px;
+    height: 35px;
+  }
+
+  .ob-banner-compra-gana .dots-logo-odd {
+    display: flex;
+    align-items: center;
+  }
+
+  .ob-banner-compra-gana .boton-odd-res {
+    display: flex;
+    width: 170px;
+    height: 39px;
+
+  }
+
+
+}
+
 
 
 /* Responsive 320*/
@@ -259,7 +513,7 @@ a {
   .ob-banner-compra-gana .ori-logo-odd {
     display: flex;
     width: 147px;
-    height: 31px;
+    height: 37px;
     margin: 10px;
 
   }
@@ -278,6 +532,5 @@ a {
 
 
 }
-
 
 /*# sourceMappingURL=main.css.map */
